@@ -30,7 +30,7 @@ namespace Web_AutoFac_Demo.Controllers
         {
             // 不使用具体的日志类和存储类
             _repository.Add();
-            _logger.Write();
+            _logger.Write(); 
         }
     }
 }
